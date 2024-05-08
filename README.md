@@ -1,13 +1,13 @@
 # Random Walk Stimulation on Undirected Graph - L1 Distance between Normalized Degree Vector and Empirical Frequency Vector
 This is to stimulate a random walk on an undirected grapph and calculate the ℓ1-distance between normalized degree vector and empirical frequency vector during the random walk.
 ### Parameters
-- **graph** : networkx.classes.graph.Graph
+- **graph** : networkx.classes.graph.Graph   
 &emsp;&emsp;&emsp;&emsp;&emsp;An undirected nxGraph with at least one edge for all node
-- **steps** : integer
+- **steps** : integer    
 &emsp;&emsp;&emsp;&emsp;&emsp;Number of steps to walk in random walk stimulation
 
 ### Returns
-- **distance** : float
+- **distance** : float    
 &emsp;&emsp;&emsp;&emsp;&emsp;ℓ1-distance between normalized degree vector and empirical frequency vector
 
 
