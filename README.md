@@ -12,8 +12,8 @@ This is to simulate a random walk on an undirected graph and calculate the ℓ1-
 
 
 ### Preprocessing Examples
-We have to convert the undirected graph to a nxGraph before apply **random_walk**  
-If the undirected graph is presented in a dictionary
+If the undirected graph is not nxGraph, we have to convert it to a nxGraph before apply **random_walk**  
+If it is presented in a dictionary
 ```
 >>> print(undirected_graph)
 {0:[1, 2, 4], 1:[2, 3], 2:[3], 3:[4], 4:[5, 6]}
