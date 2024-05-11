@@ -1,3 +1,7 @@
+import networkx as nx
+import numpy as np
+import random
+
 def random_walk(graph, steps):
     # convert the nodes from nx NodeView to list
     nodes = list(graph.nodes)
